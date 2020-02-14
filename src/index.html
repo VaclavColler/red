@@ -11,12 +11,22 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header__wrapper">
-                <div id="burger" class="burger">
-                    <span id="sp1"></span>
-                    <span id="sp2"></span>
-                    <span id="sp3"></span>
-                  </div>
+            <div class="header__wrapper" id="work">
+
+                <div class="overlay ">
+                    <nav class="overlayMenu">  
+                        <ul role="menu">
+                            <li><a href="#work" role="menuitem">Наша работа</a></li>
+                            <li><a href="#advantages" role="menuitem">Преимущества</a></li>
+                            <li><a href="#price" role="menuitem">Цены</a></li>
+                            <li><a href="#scheme" role="menuitem">Схема работы</a></li>
+                            <li><a href="#reviews" role="menuitem">Отзывы</a></li>
+                            <li><a href="#contacts" role="menuitem">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navBurger " role="navigation" id="navToggle"></div> 
+                
                 <div class="header__menu">
                     <div class="header__logo">
                         <a href="#"><img src="icons/logo.png" alt="Logo" class="header__logotype"></a>
@@ -24,12 +34,12 @@
 
                     <div class="header__navbar">
                         <ul>
-                            <li><a href="#">Наша работа</a></li>
-                            <li><a href="#">Преимущества</a></li>
-                            <li><a href="#">Цены</a></li>
-                            <li><a href="#">Схема работы</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#work">Наша работа</a></li>
+                            <li><a href="#advantages">Преимущества</a></li>
+                            <li><a href="#price">Цены</a></li>
+                            <li><a href="#scheme">Схема работы</a></li>
+                            <li><a href="#reviews">Отзывы</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
                         </ul>
                     </div>
 
@@ -81,7 +91,7 @@
 
     <section class="advantages">
         <div class="container">
-            <div class="advantages__wrapper">
+            <div class="advantages__wrapper" id="advantages">
                 <h2 class="advantages__title">Преимущества работы с GlobalOpt</h2>
 
                 <div class="row justify-content-around">
@@ -199,7 +209,7 @@
         </div>
     </section>
 
-    <section class="work">
+    <section class="work" id="#work">
         <div class="container">
             <div class="work__wrapper">
                 <h2 class="work__title">Наша работа - больше чем просто доставка</h2>
@@ -247,7 +257,7 @@
         </div>
     </section>
 
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <div class="price__wrapper">
                 <h2 class="price__title">Цены на любой вариант доставки</h2>
@@ -322,7 +332,7 @@
         </div>
     </section>
 
-    <section class="scheme">
+    <section class="scheme" id="scheme">
         <div class="container">
             <div class="scheme__wrapper">
                 <h2 class="scheme__header">Схема работы с нами</h2>
@@ -380,7 +390,7 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <section class="reviews" id="reviews">
         <div class="container">
             <div class="reviews__wrapper">
                 <h2 class="reviews__header">отзывы наших клиентов</h2>
@@ -396,7 +406,7 @@
         </div>
     </section>
 
-    <section class="question">
+    <section class="question" id="contacts">
         <div class="container">
             <div class="question__wrapper">
                 <div class="question__div">
@@ -451,7 +461,6 @@
         </div>
         </div>
     </footer>
-
 
 
 
