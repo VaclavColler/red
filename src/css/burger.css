@@ -1,0 +1,50 @@
+.burger{
+    width: 50px;
+    height: 50px;
+    margin-left: 85%;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    display: none;
+  }
+  .burger > span{
+    display: block;
+    position: relative;
+    width: 90%;
+    height: 5px;
+    margin: 7px auto;
+    background-color: #ec644b;
+    border-radius: 10px;
+  }
+  
+  .burger > span#sp1{
+    transition: all .3s .5s;
+  }
+  
+  .burger > span#sp2{
+    transition: all .3s .3s;
+  }
+  
+  .burger > span#sp3{
+    transition: all .3s .1s;
+  }
+  
+  .burger.active > span#sp1{
+    width: 90%;
+    height: 90%;
+    margin: 5px auto;
+    transition: all .3s .1s;
+  }
+  
+  .burger.active > span#sp2{
+    background-color: #25333C;
+    transform: translateY(-30px) rotateZ(45deg);
+    transition: all .3s .3s;
+  }
+  
+  .burger.active > span#sp3{
+    background-color: #25333C;
+    transform: translateY(-43px) rotateZ(-45deg);
+    transition: all .3s .5s;
+  }
+  
