@@ -4,3 +4,8 @@ $("#navToggle").click(function() {
   // this line ▼ prevents content scroll-behind
   $("body").toggleClass("locked"); 
 });
+
+$(".overlayItem").click(function() {
+  $(".overlay").removeClass("open");
+  $("#navToggle").removeClass("active");
+});
